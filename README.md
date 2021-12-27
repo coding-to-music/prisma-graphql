@@ -1,10 +1,12 @@
 # How To Build a GraphQL API with Prisma and Deploy to DigitalOcean's App Platform
 
+https://www.digitalocean.com/community/tutorials/how-to-build-a-graphql-api-with-prisma-and-deploy-to-digitalocean-s-app-platform
+
 Node.js Git APIDevelopment GraphQL DigitalOcean App Platform
 
 danielnorman
 
-By Daniel Norman
+By Daniel Norman https://www.digitalocean.com/community/users/danielnorman
 
 Published onOctober 28, 2020 16.9kviews
 The author selected the COVID-19 Relief Fund to receive a donation as part of the Write for DOnations program.
@@ -109,8 +111,8 @@ nano src/schema.js
  
 Now add the following code to the file:
 
-```java
 prisma-graphql/src/schema.js
+```java
 const { gql } = require('apollo-server')
 
 const typeDefs = gql`
@@ -220,11 +222,11 @@ You define the resolvers following the same structure as the GraphQL schema. Eve
 
 Resolver functions receive four arguments:
 
-parent: The parent is the return value of the previous resolver in the resolver chain. For top-level resolvers, the parent is undefined, because no previous resolver is called. For example, when making a feed query, the query.feed() resolver will be called with parent’s value undefined and then the resolvers of Post will be called where parent is the object returned from the feed resolver.
-args: This argument carries the parameters for the query, for example, the post query, will receive the id of the post to be fetched.
-context: An object that gets passed through the resolver chain that each resolver can write to and read from, which allows the resolvers to share information.
-info: An AST representation of the query or mutation. You can read more about the details in part III of this series: Demystifying the info Argument in GraphQL Resolvers.
-Since the context and info are not necessary in these resolvers, only parent and args are defined.
+- parent: The parent is the return value of the previous resolver in the resolver chain. For top-level resolvers, the parent is undefined, because no previous resolver is called. For example, when making a feed query, the query.feed() resolver will be called with parent’s value undefined and then the resolvers of Post will be called where parent is the object returned from the feed resolver.
+- args: This argument carries the parameters for the query, for example, the post query, will receive the id of the post to be fetched.
+- context: An object that gets passed through the resolver chain that each resolver can write to and read from, which allows the resolvers to share information.
+- info: An AST representation of the query or mutation. You can read more about the details in part III of this series: Demystifying the info Argument in GraphQL Resolvers.
+- Since the context and info are not necessary in these resolvers, only parent and args are defined.
 
 Save and exit the file once you’re done.
 
