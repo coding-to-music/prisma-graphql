@@ -415,11 +415,10 @@ Click Install & Authorize and you will be redirected back to DigitalOcean.
 
 Choose the repository your_github_username/prisma-graphql and click Next.
 
-Name your app and pick a branch to deploy from
+![Name your app and pick a branch to deploy from](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5d.png?raw=true)
+
 
 Choose the region you want to deploy your app to and click Next.
-
-![Configure your app](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5d.png?raw=true)
 
 ![Configure your app](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5e.png?raw=true)
 
