@@ -484,13 +484,13 @@ Save and exit the file.
 With this setup in place, go ahead and launch the PostgreSQL database server with the following command:
 
 ```java
-docker-compose up -d
+sudo docker-compose up -d
 ```
  
 You can verify that the database server is running with the following command:
 
 ```java
-docker ps
+sudo docker ps
 ```
  
 This will output something similar to:
