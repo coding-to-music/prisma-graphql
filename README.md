@@ -111,6 +111,7 @@ nano src/schema.js
  
 Now add the following code to the file:
 
+
 prisma-graphql/src/schema.js
 ```java
 const { gql } = require('apollo-server')
