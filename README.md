@@ -421,6 +421,8 @@ Choose the region you want to deploy your app to and click Next.
 
 ![Configure your app](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5d.png?raw=true)
 
+![Configure your app](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5e.png?raw=true)
+
 Here you can customize the configuration for the app. Ensure that the Run Command is npm start. By default, App Platform will set the HTTP port to 8080, which is the same port that you’ve configured your GraphQL server to bind to.
 
 Click Next and you will be prompted to pick the plan.
@@ -862,21 +864,21 @@ First, go to the App Platform console and choose the prisma-graphql project you 
 
 Next, go to the Components tab.
 
-## Component Tab
+![Component Tab](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step9a.png?raw=true)
 
 Click on + Create Component and select Database, which will lead you to a page to configure your database.
 
-## Configure your database
+![Configure your database](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step9b.png?raw=true)
 
 Choose Dev Database and click Create and Attach.
 
 You will be redirected back to the Components page, where there will be a progress bar for creating the database.
 
-## Creating database
+![Creating database](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step9c.png?raw=true)
 
 After the database has been created, you will run the database migration against the production database on DigitalOcean from your local machine. To run the migration, you will need the connection string of the hosted database. To get it, click on the db icon in the components tab.
 
-## Database information
+![Database information](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step9d.png?raw=true)
 
 Under Connection Details select Connection String in the dropdown and copy the database URL, which will have the following structure:
 
@@ -916,7 +918,7 @@ Note: App Platform will make the DATABASE_URL environment variable available to 
 
 This will automatically trigger a build. If you open App Platform console, you will have a Deploying progress bar.
 
-## Deploying
+![Deploying](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step9e.png?raw=true)
 
 Once the deployment succeeds, you will receive a Deployed successfully message.
 
