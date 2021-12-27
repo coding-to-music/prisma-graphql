@@ -446,7 +446,7 @@ The Prisma schema is the main configuration file for your Prisma setup and conta
 Begin by installing the Prisma CLI with the following command:
 
 ```java
-npm install --save-dev @prisma/cli
+npm install --save-dev @prisma
 ```
  
 The Prisma CLI will help with database workflows such as running database migrations and generating Prisma Client.
