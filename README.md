@@ -319,7 +319,7 @@ npm start
  
 To test the GraphQL API, open the URL from the output, which will lead you to the GraphQL Playground.
 
-## GraphQL Playground
+![GraphQL Playground](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step3a.png?raw=true)
 
 The GraphQL Playground is an IDE where you can test the API by sending queries and mutations.
 
