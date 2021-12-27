@@ -338,7 +338,7 @@ query {
  
 The response will show a title of Subscribe to GraphQL Weekly with its URL and Follow DigitalOcean on Twitter with its URL.
 
-## GraphQL query
+![GraphQL query](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step3b.png?raw=true)
 
 To test the createDraft mutation, enter the following mutation:
 
@@ -355,7 +355,7 @@ mutation {
  
 After you submit the mutation, using the play button, you will receive Deploying a GraphQL API to DigitalOcean within the title field as part of the response.
 
-## GraphQL mutation
+![GraphQL mutation](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step3c.png?raw=true)
 
 Note: You can choose which fields to return from the mutation by adding or removing fields within the curly braces following createDraft. For example, if you wanted to only return the id and title you could send the following mutation:
 
@@ -407,7 +407,7 @@ First, go to the [App Platform](https://cloud.digitalocean.com/apps) and click o
 
 You will see a button to link your GitHub account.
 
-## Link Your GitHub Acccount
+![Link Your GitHub Acccount](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5a.png?raw=true)
 
 Click on it, and you will be redirected to GitHub.
 
@@ -419,7 +419,7 @@ Name your app and pick a branch to deploy from
 
 Choose the region you want to deploy your app to and click Next.
 
-## Configure your app
+![Configure your app](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5d.png?raw=true)
 
 Here you can customize the configuration for the app. Ensure that the Run Command is npm start. By default, App Platform will set the HTTP port to 8080, which is the same port that you’ve configured your GraphQL server to bind to.
 
@@ -429,7 +429,7 @@ Select Basic and then click Launch Basic App. You will be redirected to the app 
 
 Once the build finishes, you will get a notification indicating that your app is deployed.
 
-## App page
+![App page](https://github.com/coding-to-music/prisma-graphql/blob/main/images/step5f.png?raw=true)
 
 You can now visit your deployed GraphQL API at the URL below the app’s name. It will be under the ondigitalocean.app subdomain. If you open the URL, the GraphQL Playground will open the same way as it did in Step 3 of the tutorial.
 
