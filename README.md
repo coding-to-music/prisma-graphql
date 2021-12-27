@@ -403,7 +403,7 @@ You have successfully committed and pushed the changes to GitHub. Next, you will
 ## Step 5 — Deploying to App Platform
 In this step, you will connect the GitHub repository you created in the previous step to DigitalOcean and configure App Platform so that the GraphQL API can be automatically deployed when you push changes to GitHub.
 
-First, go to the App Platform and click on the Launch Your App button.
+First, go to the [App Platform](https://cloud.digitalocean.com/apps) and click on the Launch Your App button.
 
 You will see a button to link your GitHub account.
 
