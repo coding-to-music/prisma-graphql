@@ -626,6 +626,19 @@ migrations/
 Everything is now in sync.
 ```
 
+Output
+```java
+Environment variables loaded from .env
+Environment variables loaded from prisma/.env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "mydb", schema "public" at "localhost:5432"
+
+Error: P1000: Authentication failed against database server at `localhost`, the provided database credentials for `johndoe` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+```
+
+
 This command creates a new migration on your file system and runs it against the database to create the database schema. Here’s a quick overview of the options that are provided to the command:
 
 - --preview-feature: Required because Prisma Migrate is currently in a preview state.
