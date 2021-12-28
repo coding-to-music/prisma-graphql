@@ -486,7 +486,40 @@ With this setup in place, go ahead and launch the PostgreSQL database server wit
 ```java
 sudo docker-compose up -d
 ```
- 
+
+Output
+```java
+Creating network "prisma-graphql_default" with the default driver
+Pulling postgres (postgres:14)...
+14: Pulling from library/postgres
+a2abf6c4d29d: Pull complete
+e1769f49f910: Pull complete
+33a59cfee47c: Pull complete
+461b2090c345: Pull complete
+8ed8ab6290ac: Pull complete
+495e42c822a0: Pull complete
+18e858c71c58: Pull complete
+594792c80d5f: Pull complete
+794976979956: Pull complete
+eb5e1a73c3ca: Pull complete
+6d6360292cba: Pull complete
+131e916e1a28: Pull complete
+b84c0e55930b: Pull complete
+Digest: sha256:17286f7ca2590bdfdfa3afd3305d839780c33c4f9af167a45e537f22d3cafcb0
+Status: Downloaded newer image for postgres:14
+Creating prisma-graphql_postgres_1 ... done
+Attaching to prisma-graphql_postgres_1
+postgres_1  | 
+postgres_1  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+postgres_1  | 
+postgres_1  | 2021-12-28 04:10:45.573 UTC [1] LOG:  starting PostgreSQL 14.1 (Debian 14.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+postgres_1  | 2021-12-28 04:10:45.574 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+postgres_1  | 2021-12-28 04:10:45.575 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+postgres_1  | 2021-12-28 04:10:45.579 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+postgres_1  | 2021-12-28 04:10:45.585 UTC [25] LOG:  database system was shut down at 2021-12-27 19:55:12 UTC
+postgres_1  | 2021-12-28 04:10:45.592 UTC [1] LOG:  database system is ready to accept connections
+```
+
 You can verify that the database server is running with the following command:
 
 ```java
